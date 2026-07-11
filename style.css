@@ -53,10 +53,8 @@ a {
 
 .card {
   position: relative;
-
   width: min(100%, 45.625rem);
   border-radius: var(--radius-card);
-
   background: var(--color-white);
   box-shadow: var(--shadow);
 }
@@ -233,6 +231,9 @@ a {
 }
 
 @media (max-width: 47.9375rem) {
+  .card {
+    overflow: hidden;
+  }
   .card__footer {
     position: static;
   }
@@ -258,7 +259,6 @@ a {
 
 @media (min-width: 48rem) {
   .card {
-    overflow: hidden;
     display: grid;
     grid-template-columns: minmax(17.5rem, 39%) 1fr;
     gap: 2rem;
