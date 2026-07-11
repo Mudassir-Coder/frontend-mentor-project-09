@@ -1,107 +1,90 @@
-# Frontend Mentor - Article preview component
+# Frontend Mentor - Article Preview Component
 
 ![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## Overview
 
-Thanks for checking out this front-end coding challenge.
+This project is my solution to the Frontend Mentor [Article preview component challenge](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT).
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+I used this project as a hands-on learning exercise to practice:
 
-**To do this challenge, you need a basic understanding of HTML, CSS and a tiny bit of JavaScript.**
+- Setting up and experimenting with Figma's MCP server in VS Code
+- Fixing UI issues that were generated or suggested by AI tools
+- Using GitHub Copilot Student Pack as a development helper while still doing the thinking myself
+- Building a responsive layout with HTML, CSS, and a small amount of JavaScript
 
-## The challenge
+## The Challenge
 
-Your challenge is to build out this article preview component and get it looking as close to the design as possible.
+The goal is to build an article preview card that matches the provided design as closely as possible.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Users should be able to:
 
-The only JavaScript you'll need for this challenge is to initiate the share options when someone clicks the share icon.
+- View the optimal layout on mobile and desktop
+- Open and close the social share options when they click the share icon
 
-Your users should be able to: 
+## What I Wanted To Learn
 
-- View the optimal layout for the component depending on their device's screen size
-- See the social media share links when they click the share icon
+This project is not just about finishing the design. It is also about learning my workflow.
 
-### Want some support on the challenge? 
+I wanted to understand how to:
 
-[Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+- Connect Figma MCP to my editor and use it as a reference while building UI
+- Spot when AI-generated UI details do not match the design
+- Debug spacing, alignment, and responsive behavior instead of accepting the first AI output
+- Use Copilot as a support tool while still writing and fixing the code myself
 
-## Where to find everything
+## Tools Used
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+- HTML5
+- CSS3
+- JavaScript
+- Figma MCP server
+- GitHub Copilot Student Pack
+- Frontend Mentor design files
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+## AI Collaboration
 
-If you would like the Figma design file to gain experience using professional tools and build more accurate projects faster, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+I used GitHub Copilot Student Pack during this project to help with ideas, debugging, and checking my approach.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+My goal was not to let AI build the whole UI for me. Instead, I used it to speed up small tasks and then manually reviewed the result against the design.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+This helped me catch and fix issues such as:
 
-## Using AI coding assistants
+- incorrect spacing or alignment
+- inconsistent responsive behavior
+- share menu interaction bugs
+- details that looked fine in code but did not match the design visually
 
-We've included two files to help you if you're using AI coding assistants (like Claude, GitHub Copilot, Cursor, etc.) while working on this challenge:
+## Figma MCP Notes
 
-- `AGENTS.md` - Contains detailed instructions for AI assistants on how to help you with this challenge. It's tailored to this challenge's difficulty level, so the AI will provide guidance appropriate to your learning stage—offering more support for beginner challenges and encouraging more independence on advanced ones.
-- `CLAUDE.md` - A pointer file that directs Claude-based tools to the AGENTS.md instructions.
+I also wanted to practice using Figma's MCP server in a real project.
 
-**How to use them:** You don't need to do anything! These files are automatically detected by most AI coding tools. The AI will read them and adjust its behavior to be a better learning partner—guiding you toward solutions rather than just giving you the answers.
+That helped me learn how to:
 
-**Note:** These files are designed to help you *learn*, not to do the work for you. The AI is instructed to ask questions, give hints, and explain concepts rather than writing complete solutions.
+- inspect design references more efficiently
+- compare the code output with the original design more accurately
+- use design context to reduce guesswork when styling the component
 
-## Building your project
+## What I Learned
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+- AI tools are useful, but they still need review and correction
+- A design reference is only helpful if I check the details carefully
+- Small layout bugs are easier to fix when I work step by step
+- Copilot is best used as a coding partner, not as a replacement for understanding the code
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+## Project Files
 
-## Deploying your project
+- [README template](./README-template.md)
+- [Style guide](./style-guide.md)
+- [Challenge design files](./design)
+- [Assets](./images)
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+## Author
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- [Portfolio](https://mmudassir.me/)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/Mudassir-Coder)
+- [GitHub](https://github.com/Mudassir-Coder)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://www.frontendmentor.io/guides/hosting-your-solution).
+## Notes
 
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://www.frontendmentor.io/guides/how-to-submit-solutions) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [community](https://www.frontendmentor.io/community). 
-2. Share on [X (formerly Twitter)](https://x.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in your post. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on [LinkedIn](https://www.linkedin.com/company/frontend-mentor/).
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+If you want, you can replace the placeholders above with your real profile links and add a live site URL once the project is deployed.
