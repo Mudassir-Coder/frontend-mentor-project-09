@@ -84,7 +84,3 @@ That helped me learn how to:
 - [Portfolio](https://mmudassir.me/)
 - [Frontend Mentor](https://www.frontendmentor.io/profile/Mudassir-Coder)
 - [GitHub](https://github.com/Mudassir-Coder)
-
-## Notes
-
-If you want, you can replace the placeholders above with your real profile links and add a live site URL once the project is deployed.
